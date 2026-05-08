@@ -12,9 +12,7 @@ The code covers three parts of the empirical work:
 
 **Ondřej Bouzek**
 Faculty of Finance and Accounting, University of Economics and Business, Prague
-Contact: [tvuj-skolni-mail@vse.cz]
-
-Thesis supervisor: [doplň jméno vedoucího], Department of [doplň katedru]
+Department of Corporate Finance
 
 ## Data
 
@@ -54,7 +52,7 @@ Generated files are written to `outputs/`.
 
 If you use this code, please cite the underlying thesis:
 
-> Bouzek, O. (2025). *Predikce ukazatele beta pomocí strojového učení.* Diploma thesis, University of Economics and Business, Prague.
+> Bouzek, O. (2026). *Predikce ukazatele beta pomocí strojového učení.* Diploma thesis, University of Economics and Business, Prague.
 
 ## License
 
