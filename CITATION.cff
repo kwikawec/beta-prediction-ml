@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Beta Prediction with Machine Learning"
+message: "If you use this code, please cite the underlying thesis."
+type: software
+authors:
+  - family-names: Bouzek
+    given-names: Ondřej
+    affiliation: "University of Economics and Business, Prague"
+repository-code: "https://github.com/kwikawec/beta-prediction-ml"
+license: MIT
+year: 2026
+preferred-citation:
+  type: thesis
+  title: "Predikce ukazatele beta pomocí strojového učení"
+  authors:
+    - family-names: Bouzek
+      given-names: Ondřej
+  thesis-type: "Diploma thesis"
+  year: 2026
+  institution:
+    name: "University of Economics and Business, Prague"
+    address: "Prague, Czech Republic"
+  department: "Faculty of Finance and Accounting, Department of Corporate Finance"
+  supervisors:
+    - family-names: Svačina
+      given-names: Pavel
