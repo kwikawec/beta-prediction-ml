@@ -17,6 +17,8 @@ Faculty of Finance and Accounting
 Department of Corporate Finance  
 University of Economics and Business, Prague (VŠE Praha)
 
+Thesis supervisor: Pavel Svačina
+
 ## Data
 
 Input data are not included in this repository due to licensing restrictions (Bureau van Dijk Orbis). The scripts expect the input files to be placed in the `data/` directory. Empty CSV templates with the expected column names are provided in `data/templates/`.
@@ -53,9 +55,15 @@ Generated files are written to `outputs/`.
 
 ## Citation
 
-If you use this code, please cite the underlying thesis:
+If you use this code, please cite the underlying thesis. Both citation styles below are accepted:
 
-> Bouzek, O. (2026). *Predikce ukazatele beta pomocí strojového učení.* Diploma thesis, University of Economics and Business, Prague.
+**APA (international):**
+
+> Bouzek, O. (2026). *Predikce ukazatele beta pomocí strojového učení* [Diploma thesis, University of Economics and Business, Prague].
+
+**ČSN ISO 690 (Czech standard):**
+
+> BOUZEK, Ondřej. *Predikce ukazatele beta pomocí strojového učení.* Praha, 2026. Diplomová práce. Vysoká škola ekonomická v Praze, Fakulta financí a účetnictví, Katedra financí a oceňování podniku. Vedoucí práce Pavel SVAČINA.
 
 ## License
 
