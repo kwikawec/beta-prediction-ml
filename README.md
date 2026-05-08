@@ -1,6 +1,6 @@
 # Beta Prediction with Machine Learning
 
-This repository contains the code accompanying the diploma thesis *Predikce ukazatele beta pomocí strojového učení* by **Ondřej Bouzek**, defended at the Faculty of Finance and Accounting, University of Economics and Business, Prague (VŠE Praha), 2025.
+This repository contains the code accompanying the diploma thesis *Predikce ukazatele beta pomocí strojového učení* by **Ondřej Bouzek**, defended at the Faculty of Finance and Accounting, University of Economics and Business, Prague (VŠE Praha), 2026.
 
 The code covers three parts of the empirical work:
 
@@ -11,7 +11,7 @@ The code covers three parts of the empirical work:
 ## Author
 
 **Ondřej Bouzek**
-Faculty of Finance and Accounting, University of Economics and Business, Prague
+Faculty of Finance and Accounting, University of Economics and Business, Prague,
 Department of Corporate Finance
 
 ## Data
