@@ -2,17 +2,20 @@
 
 This repository contains the code accompanying the diploma thesis *Predikce ukazatele beta pomocí strojového učení* by **Ondřej Bouzek**, defended at the Faculty of Finance and Accounting, University of Economics and Business, Prague (VŠE Praha), 2026.
 
+The thesis develops a machine-learning approach to predicting forward-looking equity beta from firm fundamentals and historical market sensitivity, as an alternative to historical regression and the Blume correction. Predicted betas are used as an input to the Capital Asset Pricing Model (CAPM) for estimating the cost of equity in valuation practice.
+
 The code covers three parts of the empirical work:
 
-- `beta_60m_prediction_pipeline.ipynb` – prediction pipeline for future 60-month realized beta,
-- `beta_12m_prediction_pipeline.ipynb` – prediction pipeline for future 12-month realized beta,
-- `shap_analysis.py` – SHAP analysis for the 60-month model specifications discussed in the thesis.
+- `beta_60m_prediction_pipeline.ipynb` — full prediction pipeline for the future 60-month realized beta (main model in the thesis).
+- `beta_12m_prediction_pipeline.ipynb` — analogous pipeline for the future 12-month realized beta.
+- `shap_analysis.py` — post-hoc SHAP analysis of the winning 60-month neural-network specifications.
 
 ## Author
 
-**Ondřej Bouzek**
-Faculty of Finance and Accounting, University of Economics and Business, Prague,
-Department of Corporate Finance
+**Ondřej Bouzek**  
+Faculty of Finance and Accounting  
+Department of Corporate Finance  
+University of Economics and Business, Prague (VŠE Praha)
 
 ## Data
 
@@ -30,9 +33,9 @@ Expected input files:
 
 The computations were prepared for Python 3.11. Install the package versions listed in `requirements.txt`:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 The neural-network results are sensitive to package versions, especially `scikit-learn`. The thesis results were prepared with `scikit-learn==1.5.0`, as specified in `requirements.txt`; other versions may produce slightly different predictions.
 
@@ -40,11 +43,11 @@ The neural-network results are sensitive to package versions, especially `scikit
 
 Run the notebooks from the repository root after placing the required input files in `data/`.
 
-\`\`\`bash
+```bash
 jupyter notebook beta_60m_prediction_pipeline.ipynb
 jupyter notebook beta_12m_prediction_pipeline.ipynb
 python shap_analysis.py
-\`\`\`
+```
 
 Generated files are written to `outputs/`.
 
