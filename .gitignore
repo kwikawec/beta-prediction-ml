@@ -1,0 +1,26 @@
+# Licensed input data
+/data/*.csv
+/data/*.xlsx
+/data/*.parquet
+/data/*.pkl
+
+# Keep input templates
+!/data/templates/
+!/data/templates/*.csv
+
+# Generated outputs
+/outputs/*
+!/outputs/.gitkeep
+!/outputs/README.md
+/shap_output/
+/beta12m_thesis_ready_final_complete/
+/beta60m_thesis_ready_final_complete/
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
